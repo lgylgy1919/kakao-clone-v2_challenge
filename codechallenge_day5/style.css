@@ -1,0 +1,36 @@
+body {
+  margin: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 30px;
+  background-color: #7f8c8d;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  display: flex;
+  transition: background-color 0.5s ease-in-out;
+}
+.box:hover {
+  box-shadow: 5px 3px 10px gray;
+  background-color: #95a5a6;
+}
+
+.text {
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+  background-image: url("image/chat.jpg");
+  transition: transform 0.5s ease-in-out;
+}
+.photo:hover {
+  border: 2px solid black;
+  transform: rotate(100deg) scale(0.5, 0.5);
+}

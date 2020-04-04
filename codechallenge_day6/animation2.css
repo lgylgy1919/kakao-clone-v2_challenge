@@ -1,0 +1,59 @@
+body {
+  background-color: #1eac9c;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  width: 200px;
+  height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+.stick1 {
+  width: 30px;
+  height: 120px;
+  background-color: white;
+  animation: 1s long infinite ease-in-out;
+}
+.stick2 {
+  width: 30px;
+  height: 120px;
+  background-color: white;
+  animation: 1s long infinite ease-in-out;
+  animation-delay: 0.1s;
+}
+.stick3 {
+  width: 30px;
+  height: 120px;
+  background-color: white;
+  animation: 1s long infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+.stick4 {
+  width: 30px;
+  height: 120px;
+  background-color: white;
+  animation: 1s long infinite ease-in-out;
+  animation-delay: 0.3s;
+}
+.stick5 {
+  width: 30px;
+  height: 120px;
+  background-color: white;
+  animation: 1s long infinite ease-in-out;
+  animation-delay: 0.4s;
+}
+@keyframes long {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: scale(1, 2);
+  }
+  50% {
+    transform: none;
+  }
+}
