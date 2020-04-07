@@ -7,7 +7,8 @@
       src="https://kit.fontawesome.com/431e2fbafa.js"
       crossorigin="anonymous"
     ></script>
-    <title>Find | Kakao- clonet</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Friends | Kakao- clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,80 +25,64 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__titie">Find</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-
         <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
-
-    <main class="find">
-      <header class="find__head">
-        <ul class="find__header-list">
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="fas fa-qrcode fa-2x"></i>
-              <span class="header-btn__title">
-                QR Code
-              </span>
-            </span>
-          </li>
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="fas fa-user-plus fa-2x"></i>
-              <span class="header-btn__title">
-                Add by Contacts
-              </span>
-            </span>
-          </li>
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="fas fa-passport fa-2x"></i>
-              <span class="header-btn__title">
-                Add by ID
-              </span>
-            </span>
-          </li>
-          <li class="find__header-btn header-btn">
-            <span class="header-btn__icon">
-              <i class="far fa-envelope fa-2x"></i>
-              <span class="header-btn__title">
-                Invite
-              </span>
-            </span>
-          </li>
-        </ul>
-      </header>
-
-      <ul class="find__reconmmeded">
-        <h5 class="find__title">Reocommeded Friends</h5>
-        <li class="find__friend friend friends">
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend friends--lg">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__Content">
               <span class="friend__name">LEE JAEYOON</span>
+              <span class="firend__status">nomadoders.co</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__plus-title">Plus friend</h5>
+        <div class="friends__friend friend friends">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__Content">
+              <span class="friend__name">Plus Friend</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend friends">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__Content">
+              <span class="friend__name">LEE JAEYOON</span>
+              <span class="firend__status">nomadoders.co</span>
             </div>
           </div>
           <div class="friend__column">
-            <div class="friend__add-btn">
-              <i class="fas fa-user-plus"></i>
-            </div>
+            <span class="friend__now-listening">
+              FITSLAND (FT nomadoders)
+            </span>
+            <i class="fas fa-play"></i>
           </div>
         </li>
       </ul>
     </main>
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
+            <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
