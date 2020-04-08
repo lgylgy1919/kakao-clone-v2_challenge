@@ -1,0 +1,135 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 350px;
+  height: 650px;
+  background-color: #dbdde9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.outline {
+  background-color: #f8f8f8;
+  width: 300px;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: 15px 15px 30px gray;
+  box-shadow: 15px 15px 30px gray;
+
+  padding: 20px 30px;
+}
+.title {
+  color: #434343;
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: 500;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  width: 235px;
+  height: 35px;
+  border: 1px solid #f2f2f2;
+  margin: 12px 0px;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-size: 10px;
+  opacity: 0.5;
+}
+.instructor {
+  width: 235px;
+  font-size: 10px;
+  color: #ec8893;
+  text-align: end;
+  margin-bottom: 12px;
+}
+.remember {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-square {
+  opacity: 0.3;
+}
+.fa-check {
+  font-size: 11px;
+  color: #e2283e;
+  margin-left: -12px;
+}
+.remember__text {
+  margin-left: 5px;
+}
+.btn {
+  margin-bottom: 40px;
+}
+.btn__signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.btn__signin-line {
+  width: 240px;
+  height: 35px;
+  border-radius: 25px;
+  background-color: #e2283e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innertext {
+  color: white;
+  font-size: 10px;
+}
+.or {
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #434343;
+  font-weight: 500;
+}
+.btn__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.btn__bottom_line1,
+.btn__bottom_line2 {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 35px;
+}
+.btn__bottom_line1 {
+  background-color: #475a95;
+}
+.btn__bottom_line2 {
+  background-color: #5da1f2;
+}
+.q {
+  opacity: 0.4;
+  font-size: 10px;
+}
+.a {
+  color: #ec8893;
+  font-size: 11px;
+  margin-left: 5px;
+}
+.text1,
+.text2 {
+  margin-bottom: 5px;
+}

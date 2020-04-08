@@ -21,16 +21,24 @@ body {
 .profile {
   background-color: white;
   border-radius: 15px;
+  overflow: hidden;
 }
 .ipod {
   width: 450px;
 }
-.flower {
+.bg-pic {
+  width: 500px;
+  height: 200px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRx9wDaz0B6LuC8oMqXuowc6EOKcB2cn2TZnYdG8KisdeY-4AcV&usqp=CAU");
+  background-size: cover;
+}
+
+/* .flower {
   width: 500px;
   height: 200px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-}
+} */
 .product__name,
 .price,
 .user__name {
