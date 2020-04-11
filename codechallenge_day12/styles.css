@@ -1,0 +1,147 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Baloo Thambi 2";
+  background-color: #f8f7ff;
+}
+.phone {
+  width: 300px;
+  height: 600px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px gray, -2px -2px 10px inset gray;
+}
+.screen {
+  background-color: #f8f8f8;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 0.05)
+  );
+  border: 1px solid white;
+  border-radius: 40px;
+  height: 560px;
+  position: relative;
+  overflow: hidden;
+}
+.titles {
+  margin-top: 35px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.titles i {
+  cursor: pointer;
+}
+main {
+  padding: 20px 10px;
+  padding-bottom: 0px;
+  height: 455px;
+  overflow: auto;
+}
+main::-webkit-scrollbar {
+  display: none;
+}
+
+.s-titles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 17px;
+  font-size: 10px;
+}
+.s-title1 {
+  opacity: 0.8;
+  font-weight: 700;
+}
+.s-title2 {
+  color: red;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.pics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.pic {
+  width: 113px;
+  height: 80px;
+  font-size: 10px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 10px;
+  background-size: cover;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.up .pic:first-child {
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.2)),
+    url(images/photo1.jpg);
+}
+.up .pic:nth-child(2) {
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.2)),
+    url(images/photo2.jpg);
+}
+.down .pic:first-child {
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.2)),
+    url(images/photo3.jpg);
+}
+.down .pic:nth-child(2) {
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.2)),
+    url(images/photo4.jpg);
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 8px;
+  height: 45px;
+}
+.list i {
+  color: red;
+  cursor: pointer;
+}
+.name {
+  margin-bottom: 7px;
+  opacity: 0.8;
+  font-weight: 700;
+}
+.number {
+  opacity: 0.5;
+  font-weight: 700;
+}
+nav {
+  position: aboslute;
+}
+.nav_bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 23px;
+  height: 45px;
+}
+nav i {
+  opacity: 0.6;
+  cursor: pointer;
+}
+nav li:nth-child(2) {
+  color: red;
+  font-size: 14px;
+}
