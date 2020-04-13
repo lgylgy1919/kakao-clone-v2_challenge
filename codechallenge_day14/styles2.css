@@ -1,0 +1,57 @@
+@import "reset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 100px;
+}
+.cover {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+.main {
+  width: 400px;
+  height: 300px;
+  background-image: url("image2.png");
+  background-size: cover;
+  background-position: center;
+  transform-origin: top;
+  transition: all 0.5s linear;
+}
+.main:hover {
+  height: 200px;
+}
+.bg {
+  width: 400px;
+  height: 100px;
+  background-color: #283a48;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.bottom__left {
+  margin-bottom: 20px;
+}
+.left__up {
+  font-size: 20px;
+  color: white;
+}
+.left__down {
+  color: #e94167;
+}
+.bottom__right {
+  width: 70px;
+  height: 20px;
+  background-color: #e94167;
+  padding: 4px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+@import "reset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 100px;
+}
+.cover {
+  top: 100px;
+  left: 100px;
+  background-image: url("image3.png");
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  transform-origin: 50%;
+  transition: all 0.5s linear;
+}
+.cover:hover {
+  transform: scale(0.5, 0.5) translateY(-100px);
+}
+
+.bg {
+  top: 100px;
+  left: 100px;
+  width: 400px;
+  height: 300px;
+  background-color: #283a48;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.left__up {
+  font-size: 20px;
+  color: white;
+}
+.left__down {
+  color: #e94167;
+}
+.bottom__right {
+  width: 70px;
+  height: 20px;
+  background-color: #e94167;
+  padding: 4px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
