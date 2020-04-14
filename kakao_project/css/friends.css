@@ -10,4 +10,12 @@
   font-size: 14px;
   opacity: 0.6;
   margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.angle {
+  opacity: 0.4;
+}
+.friends .friend__column:nth-child(2) {
+  opacity: 0.6;
 }
