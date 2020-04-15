@@ -19,8 +19,9 @@
   padding: 0 20px;
 }
 .chats-body {
-  background-image: url("../images/bush.png");
-  min-height: 1000vh;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .chat__write--container {
   position: fixed;
@@ -126,22 +127,27 @@
   align-self: flex-end;
 }
 
-@keyframes spin {
-  from {
+@keyframes tumbling {
+  0% {
     transform: none;
   }
-  to {
-    transform: rotateY(1turn);
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: none;
   }
 }
 .incoming-message img {
   width: 30px;
-  border-radius: 15px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-sizing: content-box;
   margin-right: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-  animation: spin 1s linear infinite;
+  animation: tumbling 1.5s linear infinite;
 }
 .message .message__bubble {
   background-color: white;
@@ -155,18 +161,18 @@
   font-weight: 600;
 }
 .incoming-message .message__author {
-  margin-top: 10px;
   display: block;
   font-weight: 600;
   font-size: 12px;
 }
 .incoming-message .message__bubble {
-  border-bottom-left-radius: 0px;
-  background-image: linear-gradient(to right, #16bffd, #cb3066);
+  margin-top: 10px;
+  border-top-left-radius: 0px;
+  background-image: linear-gradient(to right, #3a7bd5, #3a6073);
 }
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #16bffd, #cb3066);
+  background-image: linear-gradient(to left, #ba5370, #f4e2d8);
 }
 
 @keyframes incomingAnim {
@@ -182,6 +188,7 @@
 
 .incoming-message {
   animation: incomingAnim 0.5s ease-out forwards;
+  position: relative;
 }
 
 @keyframes sentAnim {
@@ -196,4 +203,22 @@
 }
 .sent-message {
   animation: sentAnim 0.5s ease-out forwards;
+  position: relative;
+}
+.message__content .img_commu {
+  width: 200px;
+  animation: none;
+  border-radius: 20px;
+}
+.times {
+  position: absolute;
+  right: -60px;
+  bottom: 0px;
+  font-size: 14px;
+}
+.timess {
+  position: absolute;
+  left: -60px;
+  bottom: 0px;
+  font-size: 14px;
 }

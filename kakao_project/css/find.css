@@ -1,7 +1,6 @@
 .find {
-  margin-top: 20px;
+  margin-top: 120px;
 }
-
 .find .find__header-list {
   display: flex;
   justify-content: space-around;
@@ -11,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* opacity: 0.7; */
 }
 
 .find .header-btn__title {
@@ -32,8 +30,8 @@
   border-top: 1px solid #f7f7f7;
 }
 
-.find .find__title {
-  font-size: 12px;
+.find__title {
+  font-size: 14px;
   opacity: 0.7;
   margin-bottom: 20px;
 }

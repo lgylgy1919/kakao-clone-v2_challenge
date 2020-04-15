@@ -11,32 +11,34 @@
     <title>Friends | Kakao- clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+    <div class="header_wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <h1 class="header__title">Friends</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-cog"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">Friends</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
-      </div>
-    </header>
-    <main class="friends">
+    <main class="friends space">
       <header class="friends__header">
         <div class="friends__friend friend">
           <div class="friend__column">
@@ -131,8 +133,36 @@
             </div>
           </div>
         </li>
+        <li class="friends__friend friend friends">
+          <div class="friend__column">
+            <img src="images/im7.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Robert Downey Jr.</span>
+              <span class="friend__status">Ironman</span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friends">
+          <div class="friend__column">
+            <img src="images/im8.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Emma Watson</span>
+              <span class="friend__status">Hermione Jean Granger</span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friends">
+          <div class="friend__column">
+            <img src="images/im9.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Emma Ston</span>
+              <span class="friend__status">lalaland</span>
+            </div>
+          </div>
+        </li>
       </ul>
     </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
@@ -165,7 +195,9 @@
       </ul>
     </nav>
     <div class="bigScreen">
-      <span class="bigScreen__text">Please make your screen small</span>
+      <span class="bigScreen__text"
+        >Please make your screen small ( ･ิᴥ･ิ)
+      </span>
     </div>
   </body>
 </html>
